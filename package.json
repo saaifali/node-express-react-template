@@ -1,0 +1,51 @@
+{
+  "name": "the-circle-project",
+  "version": "1.0.0",
+  "description": "A Portfolio building Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js --ignore public/",
+    "dev": "webpack -wd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Capsule-Corp-Tech/the-circle-project.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "potfolio",
+    "applicaiton",
+    "react"
+  ],
+  "author": "Saif Ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Capsule-Corp-Tech/the-circle-project/issues"
+  },
+  "homepage": "https://github.com/Capsule-Corp-Tech/the-circle-project#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.11",
+    "node-sass-middleware": "^0.11.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.1",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.12.1",
+    "eslint-plugin-react": "^7.21.5",
+    "nodemon": "^2.0.6",
+    "webpack": "^5.3.2",
+    "webpack-cli": "^4.1.0"
+  }
+}
